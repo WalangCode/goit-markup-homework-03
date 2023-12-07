@@ -23,6 +23,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .inside-logo {
@@ -38,6 +39,9 @@ body {
 
 .list {
   list-style: none;
+  display: flex;
+  gap: 40px;
+  margin-left: 76px;
 }
 
 .link {
@@ -48,6 +52,8 @@ body {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: flex;
+  gap: 40px;
 }
 
 .contact-color {
@@ -198,4 +204,27 @@ body {
 
 .port-default {
   list-style: none;
+}
+
+/* HW3 */
+.default {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.container {
+  margin: 0 auto;
+  width: 1158px;
+}
+.container-header {
+  display: flex;
+  padding: 0 15px;
+}
+
+.navigation-logo {
+  display: flex;
+  align-items: center;
 }
