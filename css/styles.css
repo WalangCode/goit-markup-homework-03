@@ -203,32 +203,5 @@ body {
 
 /* HW3 */
 .header {
-  border-bottom: 1px solid #e7e9fc;
-}
-
-.container-header {
-  display: flex;
-  padding: 0 15px;
-}
-
-.container {
-  width: 1158px;
-  margin: 0 auto;
-}
-.navigation-div {
-  display: flex;
-  align-items: center;
-}
-
-.menu {
-  display: flex;
-  gap: 40px;
-}
-.list-menu {
-  padding: 24px;
-}
-
-.add-list {
-  display: flex;
-  gap: 40px;
+  border-bottom: 1px solid;
 }
